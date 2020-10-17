@@ -5,12 +5,12 @@ inputNama = str
 inputTelepon = str
 
 while (1):
-    print("\n\n\n\n\n")
+    print("\n")
     print("Selamat Datang!\n")
     print("--- Menu ---")
     print("1. Daftar Kontak")
     print("2. Tambah Kontak")
-    print("3. Keluar")
+    print("3. Keluar\n")
     print("Pilih Menu: ")
     inputUser = int(input())
     if (inputUser == 1):
@@ -32,4 +32,3 @@ while (1):
     else:
         print("Menu tidak tersedia")
 
-        #test
